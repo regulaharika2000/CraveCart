@@ -1,0 +1,32 @@
+.badge {
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.placed {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
+.preparing {
+  background: #fff7ed;
+  color: #ea580c;
+}
+
+.out-for-delivery {
+  background: #ede9fe;
+  color: #7c3aed;
+}
+
+.delivered {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.cancelled {
+  background: #fee2e2;
+  color: #991b1b;
+}

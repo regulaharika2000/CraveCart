@@ -1,0 +1,38 @@
+.navbar {
+  height: 75px;
+  background: rgba(17, 24, 39, 0.95);
+  backdrop-filter: blur(10px);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 40px;
+
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.navbar-logo {
+  font-size: 28px;
+  font-weight: 700;
+  color: #ff6b35;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-link {
+  color: white;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #ff6b35;
+}

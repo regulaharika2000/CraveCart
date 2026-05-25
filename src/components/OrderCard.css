@@ -1,0 +1,23 @@
+.order-card {
+  background: white;
+  padding: 20px;
+  border-radius: 18px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+.order-card:hover {
+  transform: translateY(-4px);
+}
+
+.order-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.order-info {
+  color: var(--gray);
+  margin-bottom: 8px;
+}
