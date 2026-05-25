@@ -1,8 +1,8 @@
 import axios from "axios";
 
-const api = axios.create({
+const API = axios.create({
   baseURL: "https://cravecart-5.onrender.com/api",
   withCredentials: true
 });
 
-export default api;
+export default API;
